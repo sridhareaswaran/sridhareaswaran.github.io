@@ -1,0 +1,37 @@
+/* ----------- Desktop Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .flip-section {
+        background-image: url('/img/bg-desktop.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .card-section {
+        margin-top: 10%;
+        margin-bottom: 25%;
+        margin-left: 0%;
+        margin-right: 70%;
+    }
+}
+
+/* ----------- Mobile ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .flip-section {
+        background-image: url('/img/bg-mobile.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .card-section {
+        margin-top: 80%;
+        margin-bottom: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
